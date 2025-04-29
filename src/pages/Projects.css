@@ -1,0 +1,64 @@
+.projects {
+  background-color: #2e0854;
+  height: 100vh; 
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+  
+  .projects h2 {
+    color: #a58ec9;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #d8c0ed;
+    cursor: pointer;
+  }
+
+  .slider {
+    background-color: #d8c0ed;
+    border-radius: 20px;
+    padding: 50px;
+    width: 850px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-title {
+    font-size: 2.2rem;
+    color: #4b0082;
+    margin-bottom: 30px;
+  }
+  
+  .project-image-small {
+    width: 675px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  }
+
+  .vertical-image {
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+  }
